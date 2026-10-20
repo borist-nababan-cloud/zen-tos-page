@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy & Terms of Service - Zen Family Spa</title>
+  <meta name="description" content="Official Privacy Policy and Terms of Service for Zen Family Spa Internal Application and Google OAuth Integration." />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            zen: {
+              matcha: '#889D35',
+              sand: '#D2C0A7',
+              linen: '#F8F5F1',
+              charcoal: '#3C3C32',
+              moss: '#6E8027',
+              dark: '#2A2A23',
+              border: '#E8E2D9'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Outfit', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #F8F5F1;
+      color: #3C3C32;
+    }
+    .badge-scope {
+      background: rgba(136, 157, 53, 0.12);
+      color: #6E8027;
+      border: 1px solid rgba(136, 157, 53, 0.25);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col font-sans antialiased selection:bg-zen-matcha selection:text-white">
+
+  <!-- Top Navigation Header -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-zen-border">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-zen-matcha flex items-center justify-center p-1 shadow-xs">
+          <img src="Logo150x150.png" alt="Zen Logo" class="w-full h-full object-contain" />
+        </div>
+        <div>
+          <span class="font-display font-bold text-base sm:text-lg text-zen-charcoal tracking-tight">
+            Zen Family Spa
+          </span>
+          <span class="hidden sm:inline-block text-xs text-zen-moss font-semibold ml-2 px-2 py-0.5 rounded-full bg-zen-matcha/10">
+            Legal & Compliance
+          </span>
+        </div>
+      </div>
+
+      <nav class="flex items-center space-x-1 sm:space-x-3 text-xs sm:text-sm font-semibold">
+        <a href="#overview" class="px-3 py-1.5 rounded-xl text-zen-charcoal hover:bg-zen-sand/20 transition-colors">
+          Overview
+        </a>
+        <a href="#privacy" class="px-3 py-1.5 rounded-xl text-zen-charcoal hover:bg-zen-sand/20 transition-colors">
+          Privacy Policy
+        </a>
+        <a href="#terms" class="px-3 py-1.5 rounded-xl text-zen-charcoal hover:bg-zen-sand/20 transition-colors">
+          Terms of Service
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="overview" class="py-12 sm:py-16 border-b border-zen-border/70 bg-gradient-to-b from-white to-zen-linen">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center space-y-4">
+      <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full badge-scope text-xs font-semibold">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M10 1.944A11.954 11.954 0 012.166 5C2.056 5.649 2 6.319 2 7c0 5.225 3.34 9.67 8 11.317C14.66 16.67 18 12.225 18 7c0-.682-.057-1.35-.166-2.001A11.954 11.954 0 0110 1.944zM11 14a1 1 0 11-2 0 1 1 0 012 0zm0-7a1 1 0 10-2 0v3a1 1 0 102 0V7z" clip-rule="evenodd"/>
+        </svg>
+        <span>Google OAuth 2.0 Compliance & Legal Verification</span>
+      </div>
+      <h1 class="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl text-zen-charcoal tracking-tight">
+        Privacy Policy & Terms of Service
+      </h1>
+      <p class="text-sm sm:text-base text-zen-charcoal/70 max-w-2xl mx-auto leading-relaxed">
+        Official terms, disclosures, and data privacy commitments for employees, therapists, and authorized staff using the <strong>Zen Internal Super-App</strong> across Zen Family Spa & Reflexology locations.
+      </p>
+
+      <!-- Google OAuth Scope Summary Box for Reviewers -->
+      <div class="mt-8 text-left bg-white rounded-3xl p-6 border border-zen-border shadow-xs space-y-4">
+        <div class="flex items-center space-x-2 border-b border-zen-border/60 pb-3">
+          <svg class="w-5 h-5 text-zen-matcha" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+          </svg>
+          <h2 class="font-display font-bold text-base text-zen-charcoal">
+            Executive Disclosure for Google API Verification
+          </h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+          <div class="p-3.5 rounded-2xl bg-zen-linen border border-zen-border/70 space-y-1">
+            <div class="font-bold text-zen-charcoal">Requested Scopes</div>
+            <p class="text-zen-charcoal/70"><code>openid</code>, <code>email</code>, <code>profile</code> (basic user identification only).</p>
+          </div>
+          <div class="p-3.5 rounded-2xl bg-zen-linen border border-zen-border/70 space-y-1">
+            <div class="font-bold text-zen-charcoal">Data Purpose</div>
+            <p class="text-zen-charcoal/70">Internal authentication & role provisioning (Role 12: Operational Staff).</p>
+          </div>
+          <div class="p-3.5 rounded-2xl bg-zen-linen border border-zen-border/70 space-y-1">
+            <div class="font-bold text-zen-charcoal">Zero Third-Party Sharing</div>
+            <p class="text-zen-charcoal/70">Data is never sold or disclosed to external parties or advertisers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Legal Content Container -->
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 py-12 space-y-16 flex-1">
+
+    <!-- 1. PRIVACY POLICY SECTION -->
+    <article id="privacy" class="bg-white rounded-3xl p-6 sm:p-10 border border-zen-border shadow-xs space-y-8 scroll-mt-24">
+      <div class="border-b border-zen-border/60 pb-6 space-y-2">
+        <div class="inline-block px-3 py-1 rounded-full badge-scope text-xs font-bold uppercase tracking-wider">
+          Legal Agreement
+        </div>
+        <h2 class="font-display font-extrabold text-2xl sm:text-3xl text-zen-charcoal">
+          Privacy Policy for Zen Internal App
+        </h2>
+        <p class="text-xs text-zen-charcoal/60">
+          <strong>Last Updated:</strong> October 20, 2026 • <strong>Published by:</strong> Zen Family Spa HQ
+        </p>
+      </div>
+
+      <div class="prose prose-neutral max-w-none text-sm leading-relaxed text-zen-charcoal/80 space-y-6">
+        <p>
+          <strong>Zen Family Spa</strong> ("we," "our," or "us") is deeply committed to protecting the privacy and security of our personnel. This Privacy Policy governs the manner in which we collect, use, maintain, and disclose information collected from users (employees, therapists, managers, and authorized contractors) of the <strong>Zen Internal App</strong>.
+        </p>
+
+        <div>
+          <h3 class="font-display font-bold text-base sm:text-lg text-zen-charcoal flex items-center space-x-2">
+            <span>1. Information We Collect</span>
+          </h3>
+          <p class="mt-2 text-zen-charcoal/70">
+            When you sign in to the Zen Internal App using Google OAuth 2.0, we collect only the necessary identity data provided through your consent:
+          </p>
+          <ul class="list-disc pl-5 mt-2 space-y-1.5 text-zen-charcoal/80">
+            <li><strong>Full Name:</strong> To accurately identify you within the operational shift roster, attendance register, and task dispatch logs.</li>
+            <li><strong>Email Address:</strong> Used as your unique account identifier, for authentication handshakes, and for critical operational notifications.</li>
+            <li><strong>Profile Picture (Avatar URL):</strong> Used solely to render your staff avatar in the top navigation header and staff profile view.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-display font-bold text-base sm:text-lg text-zen-charcoal flex items-center space-x-2">
+            <span>2. How We Use Your Information</span>
+          </h3>
+          <p class="mt-2 text-zen-charcoal/70">
+            The data collected is utilized strictly for authorized internal business operations:
+          </p>
+          <ul class="list-disc pl-5 mt-2 space-y-1.5 text-zen-charcoal/80">
+            <li>To facilitate secure single-sign-on (SSO) authentication and active session maintenance.</li>
+            <li>To automatically provision and enforce Role-Based Access Control (RBAC), mapping personnel to <strong>Role 12 (OPERATIONAL_STAFF)</strong> or administrative levels.</li>
+            <li>To synchronize work logs, biometric attendance records, room occupancy management, and back-of-house warehouse stock requests.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-display font-bold text-base sm:text-lg text-zen-charcoal flex items-center space-x-2">
+            <span>3. Data Storage, Hosting, and Security</span>
+          </h3>
+          <p class="mt-2 text-zen-charcoal/70">
+            Your profile and authentication metadata are securely stored using <strong>Supabase (PostgreSQL)</strong> enterprise cloud database infrastructure. We implement defensive security measures including:
+          </p>
+          <ul class="list-disc pl-5 mt-2 space-y-1.5 text-zen-charcoal/80">
+            <li>PostgreSQL <strong>Row Level Security (RLS)</strong> policies restricting record access exclusively to authorized callers.</li>
+            <li>End-to-end TLS/HTTPS encryption in transit and AES-256 encryption at rest.</li>
+            <li>Strict audit logging and automated session token refresh cycles.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-display font-bold text-base sm:text-lg text-zen-charcoal flex items-center space-x-2">
+            <span>4. Third-Party Services & Zero Data Sale</span>
+          </h3>
+          <p class="mt-2 text-zen-charcoal/70">
+            We utilize Google OAuth strictly for user authentication. Your interaction with Google services is governed by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="text-zen-moss underline font-semibold">Google Privacy Policy</a>. 
+          </p>
+          <div class="p-4 rounded-2xl bg-zen-linen border border-zen-border/70 mt-2 text-xs font-medium text-zen-charcoal">
+            <strong>Absolute Protection Commitment:</strong> Zen Family Spa never sells, rents, monetizes, or trades employee personal data with external third parties, brokers, or advertising networks under any circumstances.
+          </div>
+        </div>
+
+        <div>
+          <h3 class="font-display font-bold text-base sm:text-lg text-zen-charcoal flex items-center space-x-2">
+            <span>5. Data Retention and Deletion Requests</span>
+          </h3>
+          <p class="mt-2 text-zen-charcoal/70">
+            We retain account data for the duration of the staff member's active employment. Upon resignation or termination of duties, access is revoked immediately. To request account deletion or data anonymization, contact our IT Department at <a href="mailto:support@zenfamilyspa.id" class="text-zen-moss underline font-semibold">support@zenfamilyspa.id</a>.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="font-display font-bold text-base sm:text-lg text-zen-charcoal flex items-center space-x-2">
+            <span>6. Policy Updates</span>
+          </h3>
+          <p class="mt-2 text-zen-charcoal/70">
+            We may periodically update this policy to reflect operational or regulatory improvements. Any revisions will be reflected with an updated "Last Updated" timestamp at the top of this document.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="font-display font-bold text-base sm:text-lg text-zen-charcoal flex items-center space-x-2">
+            <span>7. Contact & Headquarters Information</span>
+          </h3>
+          <div class="p-4 rounded-2xl bg-zen-linen border border-zen-border/70 mt-2 text-xs space-y-1 text-zen-charcoal">
+            <p><strong>Zen Family Spa Headquarters (PT Zen Family Spa)</strong></p>
+            <p>Address: Jl. Sukajadi No.182, Cipedes, Kec. Sukajadi, Kota Bandung, Jawa Barat 40161, Indonesia</p>
+            <p>Official Email: <a href="mailto:support@zenfamilyspa.id" class="text-zen-moss underline font-semibold">support@zenfamilyspa.id</a></p>
+            <p>Website: <a href="https://zenfamilyspa.id" target="_blank" class="text-zen-moss underline font-semibold">https://zenfamilyspa.id</a></p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- 2. TERMS OF SERVICE SECTION -->
+    <article id="terms" class="bg-white rounded-3xl p-6 sm:p-10 border border-zen-border shadow-xs space-y-8 scroll-mt-24">
+      <div class="border-b border-zen-border/60 pb-6 space-y-2">
+        <div class="inline-block px-3 py-1 rounded-full badge-scope text-xs font-bold uppercase tracking-wider">
+          Terms of Use
+        </div>
+        <h2 class="font-display font-extrabold text-2xl sm:text-3xl text-zen-charcoal">
+          Terms of Service for Zen Internal App
+        </h2>
+        <p class="text-xs text-zen-charcoal/60">
+          <strong>Last Updated:</strong> October 20, 2026 • <strong>Published by:</strong> Zen Family Spa HQ
+        </p>
+      </div>
+
+      <div class="prose prose-neutral max-w-none text-sm leading-relaxed text-zen-charcoal/80 space-y-6">
+        <p>
+          By accessing or utilizing the <strong>Zen Internal App</strong>, you explicitly agree to comply with and be bound by these Terms of Service.
+        </p>
+
+        <div>
+          <h3 class="font-display font-bold text-base sm:text-lg text-zen-charcoal">1. Acceptance of Terms</h3>
+          <p class="mt-2 text-zen-charcoal/70">
+            This internal application is strictly reserved for the authorized personnel, employees, therapists, and management of Zen Family Spa. By authenticating via Google OAuth, you acknowledge that you have read, understood, and agreed to these terms in full.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="font-display font-bold text-base sm:text-lg text-zen-charcoal">2. User Accounts & Responsibilities</h3>
+          <ul class="list-disc pl-5 mt-2 space-y-1.5 text-zen-charcoal/80">
+            <li>You are responsible for maintaining the confidentiality and security of the Google account credentials used to log in.</li>
+            <li>You must notify the IT Department immediately of any suspected breach or unauthorized access to your account.</li>
+            <li>Access by non-employees or unauthorized third parties is strictly prohibited and subject to legal action.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-display font-bold text-base sm:text-lg text-zen-charcoal">3. Acceptable Use Policy</h3>
+          <p class="mt-2 text-zen-charcoal/70">
+            You agree to use this application exclusively for lawful business duties related to Zen Family Spa operations. You shall not:
+          </p>
+          <ul class="list-disc pl-5 mt-2 space-y-1.5 text-zen-charcoal/80">
+            <li>Attempt to probe, scan, or bypass any application security controls or database policies.</li>
+            <li>Introduce malicious code, unauthorized scripts, or automated scraping bots.</li>
+            <li>Access, tamper with, or export data outside your assigned operational scope or job role.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-display font-bold text-base sm:text-lg text-zen-charcoal">4. Intellectual Property</h3>
+          <p class="mt-2 text-zen-charcoal/70">
+            All code, UI designs, brand assets, database schemas, and operational algorithms are the exclusive intellectual property of Zen Family Spa. Unauthorized reproduction or reverse engineering is prohibited.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="font-display font-bold text-base sm:text-lg text-zen-charcoal">5. Termination & Access Suspension</h3>
+          <p class="mt-2 text-zen-charcoal/70">
+            Zen Family Spa reserves the right to suspend or terminate app access immediately and without prior notice upon breach of these terms, misconduct, or termination of employment.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="font-display font-bold text-base sm:text-lg text-zen-charcoal">6. Limitation of Liability</h3>
+          <p class="mt-2 text-zen-charcoal/70">
+            Zen Family Spa shall not be liable for any indirect, incidental, or consequential damages resulting from downtime, network failures, or temporary inability to access the internal system.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="font-display font-bold text-base sm:text-lg text-zen-charcoal">7. Governing Law</h3>
+          <p class="mt-2 text-zen-charcoal/70">
+            These Terms shall be governed by and construed in accordance with the laws of the Republic of Indonesia.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="font-display font-bold text-base sm:text-lg text-zen-charcoal">8. Contact Information</h3>
+          <p class="mt-2 text-zen-charcoal/70">
+            For questions regarding these Terms of Service, please contact the IT Department at <a href="mailto:support@zenfamilyspa.id" class="text-zen-moss underline font-semibold">support@zenfamilyspa.id</a>.
+          </p>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-zen-border py-8">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zen-charcoal/60">
+      <div class="flex items-center space-x-2">
+        <img src="Logo150x150.png" alt="Zen Logo" class="w-6 h-6 object-contain" />
+        <span>&copy; 2026 Zen Family Spa & Reflexology. All rights reserved.</span>
+      </div>
+      <div class="flex items-center space-x-4">
+        <a href="#privacy" class="hover:text-zen-matcha transition-colors">Privacy Policy</a>
+        <span>•</span>
+        <a href="#terms" class="hover:text-zen-matcha transition-colors">Terms of Service</a>
+        <span>•</span>
+        <a href="mailto:support@zenfamilyspa.id" class="hover:text-zen-matcha transition-colors">Support</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

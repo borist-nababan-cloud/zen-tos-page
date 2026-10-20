@@ -1,0 +1,8 @@
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+.antigraviy/
+.antigravity/
+.vscode/
+.idea/
